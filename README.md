@@ -37,7 +37,7 @@ This example project utilizes [skaffold](https://skaffold.dev/), [ko](https://gi
 
 ```bash
 $ skaffold dev
-$ curl -k https://example.127.0.0.1.mip.io
+$ curl -k https://example.127.0.0.1.nip.io
 ```
 
 If you change the source code while [skaffold](https://skaffold.dev/) is running, it will rebuild and
