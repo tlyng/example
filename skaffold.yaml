@@ -7,14 +7,14 @@ build:
     concurrency: 1
   artifacts:
     - image: example
-      ko:
-        flags:
-        - -v
-        fromImage: gcr.io/distroless/base:debug-nonroot
-        dependencies:
-          paths:
-            - "**/*"
-            - go.mod
+      ko: {}
+        # flags:
+        # - -v
+        # fromImage: gcr.io/distroless/base:debug-nonroot
+        # dependencies:
+        #   paths:
+        #     - "**/*"
+        #     - go.mod
 deploy:
   kustomize:
     paths:
