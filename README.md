@@ -29,9 +29,6 @@ You can now use your cluster with:
 kubectl cluster-info --context kind-kind
 
 Thanks for using kind! 😊
-
-$ skaffold dev
-$ curl -k https://example.127.0.0.1.nip.io
 ```
 
 ### Running example application
